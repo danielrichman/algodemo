@@ -1,6 +1,6 @@
 A small "Algorithm Demonstration" javascript application, using jquery.
 
-See http://www.danielrichman.co.uk/files/algodemo.html
+See http://danielrichman.github.com/algodemo/
 
 License is GNU GPL 3; compilation will bundle jquery and sizzle.js into
 the output file. See LICENSE for more information.
