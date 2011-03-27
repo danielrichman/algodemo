@@ -1,0 +1,31 @@
+ Non-minified-source: https://github.com/danielrichman/TBC
+
+ Copyright (C) 2011  Daniel Richman
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ For a full copy of the GNU General Public License, 
+ see <http://www.gnu.org/licenses/>.
+
+ This file includes
+   jQuery JavaScript Library v1.5.1
+   http://jquery.com/
+   
+   Copyright 2011, John Resig
+   Dual licensed under the MIT or GPL Version 2 licenses.
+   http://jquery.org/license
+
+   Date: Wed Feb 23 13:55:29 2011 -0500
+
+ Which, in turn, includes Sizzle.js
+   http://sizzlejs.com/
+   Copyright 2011, The Dojo Foundation
+   Released under the MIT, BSD, and GPL Licenses.

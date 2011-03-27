@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- {LICENSE} -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Algorithm Demonstrator</title>
+    <style type='text/css'>{CSS}</style>
+    <script type='text/javascript'>{JQUERY}</script>
+    <script type='text/javascript'>{JAVASCRIPT}</script>
+  </head>
+  <body>
+    <div id="algo">
+      <div id="algo_select">
+        <select name="algo" id="algo_name">
+          <option value="algo_sort_bubble">Bubble Sort</option>
+          <option value="algo_sort_shuttle">Shuttle Sort</option>
+          <option value="algo_search_binary">Binary Search</option>
+        </select>
+      </div>
+      <div id="algo_data">
+        <input type="text" name="data_1" id="algo_data_1" />
+        <input type="text" name="data_2" id="algo_data_2" />
+        <input type="text" name="data_3" id="algo_data_3" />
+        <input type="text" name="data_4" id="algo_data_4" />
+        <input type="text" name="data_5" id="algo_data_5" />
+        <input type="text" name="data_6" id="algo_data_6" />
+        <input type="text" name="data_7" id="algo_data_7" />
+        <input type="text" name="data_8" id="algo_data_8" />
+        <input type="text" name="data_9" id="algo_data_9" />
+        <input type="button" id="algo_data_add" value="+" />
+        <input type="button" id="algo_data_sub" value="-" />
+      </div>
+      <div id="algo_option">
+        <div id="algo_option_sort">
+          <select name="direction" id="algo_sort_direction">
+            <option value="algo_sort_asc">Ascending</option>
+            <option value="algo_sort_desc">Descending</option>
+          </select>
+        </div>
+        <div id="algo_option_search">
+          <label for="algo_search_target">Target</label>:
+          <input type="text" name="target" id="algo_search_target" />
+        </div>
+      </div>
+      <div id="algo_submit">
+        <input type="button" name="submit" value="Go"
+               id="algo_submit_btn" disabled="disabled" />
+      </div>
+      <div id="algo_working"></div>
+      <div id="algo_form_sep"></div>
+    </div>
+  </body>
+</html>

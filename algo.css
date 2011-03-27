@@ -1,0 +1,147 @@
+      body, input
+      {
+        font-family: sans-serif;
+      }
+
+      .error
+      {
+        background-color: #fcc;
+      }
+
+      div#algo
+      {
+        width: 52em;
+        border: 0.125em solid black;
+        margin: 6em auto 0 auto;
+      }
+
+      div#algo_select, div#algo_data, div#algo_option, div#algo_submit
+      {
+        float: left;
+      }
+
+      div#algo_select, div#algo_data, div#algo_option, div#algo_submit
+      {
+        margin: 1.5em;
+        height: 1.6em;
+      }
+
+      div#algo_select, div#algo_option
+      {
+        width: 7em;
+      }
+
+      div#algo_data
+      {
+        width: 23em;
+      }
+
+      div#algo_submit
+      {
+        width: 3em;
+      }
+
+      div#algo_option_search
+      {
+        display: none;
+      }
+
+      input#algo_search_target
+      {
+        width: 2em;
+      }
+
+      div#algo_data input
+      {
+        width: 2em;
+        margin: 0 0.1em;
+        display: none;
+      }
+
+      div#algo_data input#algo_data_add,
+      div#algo_data input#algo_data_1, div#algo_data input#algo_data_2
+      {
+        display: inline;
+      }
+
+      div#algo_form_sep, div#algo_working
+      {
+        clear: both;
+      }
+
+      div#algo_working
+      {
+        margin: 1.5em;
+        padding-top: 1.5em;
+        border-top: 0.125em solid #aaa;
+        display: none;
+      }
+
+      div.algo_row_pass, div.algo_row_step, div.algo_row_data,
+      div.algo_row_data_item, div.algo_row_comparisons, div.algo_row_swaps,
+      div.algo_row_state
+      {
+        display: inline-block;
+        text-align: center;
+        width: 4.25em;
+        padding: 0.125em;
+        border-width: 0.125em;
+      }
+
+      div.algo_row_comparisons, div.algo_row_state
+      {
+        width: 9em;
+      }
+
+      div.algo_row_data
+      {
+        width: 24.3em;
+      }
+
+      div.algo_row_data_item
+      {
+        width: 2.45em;
+      }
+
+      div.algo_hilight
+      {
+        border-style: solid;
+        padding: 0;
+      }
+
+      div.algo_hilight_underline
+      {
+        border-bottom-style: solid;
+        padding-bottom: 0;
+      }
+
+      div.algo_compare
+      {
+        border-color: green;
+      }
+
+      div.algo_swap
+      {
+        border-color: red;
+      }
+
+      div.algo_range
+      {
+        border-color: blue;
+      }
+
+      div.algo_find
+      {
+        border-color: #0ff;
+      }
+
+      div.algo_examine
+      {
+        font-weight: bold;
+        color: green;
+      }
+
+      div.algo_row_bot
+      {
+        clear: both;
+      }
