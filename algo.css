@@ -95,7 +95,7 @@ div#algo_working
 
 div.algo_row_pass, div.algo_row_step, div.algo_row_data,
 div.algo_row_data_item, div.algo_row_comparisons, div.algo_row_swaps,
-div.algo_row_state
+div.algo_row_state, div.algo_row_lgap
 {
   display: inline-block;
   text-align: center;
@@ -117,6 +117,11 @@ div.algo_row_data
 div.algo_row_data_item
 {
   width: 2.45em;
+}
+
+div.algo_row_lgap
+{
+  width: 3em;
 }
 
 div.algo_hilight

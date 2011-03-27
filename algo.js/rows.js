@@ -12,7 +12,7 @@ function algo_get_subsections()
   if (algo_is_sort)
     return ["pass", "step", "data", "comparisons", "swaps", "bot"];
   else
-    return ["data", "comparisons", "state", "bot"];
+    return ["lgap", "data", "comparisons", "state", "bot"];
 }
 
 function algo_add_headers()
@@ -33,7 +33,7 @@ function algo_add_headers()
     row.append(ss_elem);
     ss_elem.addClass('algo_row_' + ss);
 
-    if (ss != "bot")
+    if (headers[ss] != undefined)
       ss_elem.append(headers[ss]);
   }
 
